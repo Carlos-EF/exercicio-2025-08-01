@@ -4,7 +4,7 @@ function apresentarExercicio1Console() {
     console.log("SuperDev 7ª Edição");
 }
 
-function apresentarE1Alert() {
+function apresentarExercicio1Alert() {
     alert("SuperDev 7ª Edição");
 }
 
@@ -102,7 +102,7 @@ function apresentarExercicio3Console() {
         "\nRota Jogada: " + rota3);
 }
 
-function apresentarE3Alert() {
+function apresentarExercicio3Alert() {
     let personagem = "Aatrox";
     let raca = "Darkin";
     let skillQ = "A Espada Darkin";
@@ -288,6 +288,44 @@ function apresentarExercicio5Alert() {
         "\nResultado: " + divi);
 }
 
+function apresentarIfCalculadora() {
+    let operacao = prompt("Escolha a operação desejada usando +, -, / ou *");
+    let numero1 = Number(prompt("Digite um número"));
+    let numero2 = Number(prompt("Digite outro número"));
+
+    if (operacao === "+") {
+        let = soma = numero1 + numero2;
+        alert("Soma dos números: " +
+            "\nNúmero 1: " + numero1 +
+            "\nNúmero 2: " + numero2 +
+            "\nResultado: " + soma
+        )
+    } else if (operacao === "-") {
+        let = sub = numero1 - numero2;
+        alert("Subtração dos números: " +
+            "\nNúmero 1: " + numero1 +
+            "\nNúmero 2: " + numero2 +
+            "\nResultado: " + sub
+        )
+    } else if (operacao === "/") {
+        let = divi = numero1 / numero2;
+        alert("Divisão dos números: " +
+            "\nNúmero 1: " + numero1 +
+            "\nNúmero 2: " + numero2 +
+            "\nResultado: " + divi
+        )
+    } else if (operacao === "*") {
+        let = multi = numero1 * numero2;
+        alert("Multiplicação dos números: " +
+            "\nNúmero 1: " + numero1 +
+            "\nNúmero 2: " + numero2 +
+            "\nResultado: " + multi
+        )
+    } else {
+        alert("Verifique se foi escolhido a operação e os números da forma correta.")
+    }
+}
+
 // Exercício 5
 
 // Exercício 6
@@ -349,3 +387,54 @@ function apresentarExercicio6Alert() {
         "\nFonte: " + fonte + " " + "Valor: " + precoFonte + " " + "R$" +
         "\nTotal: " + total + " " + "R$");
 }
+
+// Exercício 6
+
+// Exercício 7
+
+function apresentarExercicio7Console() {
+    let nome = prompt("Digite seu nome");
+    if (nome === "") {
+        console.log("Não seja tímido, nos conte seu nome!");
+    } else {
+        console.log(nome + ", que nome bonito!");
+    }
+}
+
+function apresentarExercicio7Alert() {
+    let nome = prompt("Digite seu nome");
+    if (nome === "") {
+        alert("Não seja tímido, nos conte seu nome!");
+    } else {
+        alert(nome + ", que nome bonito!");
+    }
+}
+
+// Exercício 7
+
+// Exercício 8
+
+function apresentarExercicio8Console() {
+    let contador = 0;
+    while (contador < 5) {
+        contador++;
+        console.log("Contador atual: ", contador);
+    }
+    console.log("Finalizado");
+}
+
+// Exercício 8
+
+// Exercício 9
+
+function apresentarExercicio9Console() {
+    let poder = [8, 0, 0, 1];
+    console.log(poder[0]);
+    console.log(poder[1]);
+    console.log(poder[2]);
+    console.log(poder[3]);
+}
+
+// Exercício 9
+
+// Exercício 10
