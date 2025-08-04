@@ -287,3 +287,65 @@ function apresentarExercicio5Alert() {
         "\nNúmero 2: " + numero4 +
         "\nResultado: " + divi);
 }
+
+// Exercício 5
+
+// Exercício 6
+
+function apresentarExercicio6Console() {
+    let placaMae = prompt("Digite o modelo da placa-mãe desejada");
+    let precoPlaca = Number(prompt("Digite o valor da placa-mãe"));
+
+    let placaVideo = prompt("Digite o modelo da placa de vídeo desejada");
+    let precoPlaca2 = Number(prompt("Digite o valor da placa de vídeo"));
+
+    let processador = prompt("Digite o modelo do processador desejado");
+    let precoProcessador = Number(prompt("Digite o valor do processador"));
+
+    let memoriaRam = prompt("Digite o modelo da memória RAM desejada");
+    let precoRam = prompt("Digite o valor da memória RAM");
+    let quantidadeRam = prompt("Digite a quantidade de unidades de memória RAM");
+    let calculoRam = precoRam * quantidadeRam;
+
+    let fonte = prompt("Digite o modelo da fonte desejada");
+    let precoFonte = Number(prompt("Digite o valor da fonte"));
+
+    let total = precoPlaca + precoPlaca2 + precoProcessador + calculoRam + precoFonte;
+
+    console.log(
+        "Placa-Mãe: " + placaMae + " " + "Valor: " + precoPlaca + " " + "R$" +
+        "\nPlaca de Vídeo: " + placaVideo + " " + "Valor: " + precoPlaca2 + " " + "R$" +
+        "\nProcessador: " + processador + " " + "Valor: " + precoProcessador + " " + "R$" +
+        "\nMemória RAM: " + memoriaRam + " " + "Quantidade: " + quantidadeRam + " " + "Valor: " + calculoRam + " " + "R$" +
+        "\nFonte: " + fonte + " " + "Valor: " + precoFonte + " " + "R$" +
+        "\nTotal: " + total + " " + "R$");
+}
+
+function apresentarExercicio6Alert() {
+    let placaMae = prompt("Digite o modelo da placa-mãe desejada");
+    let precoPlaca = Number(prompt("Digite o valor da placa-mãe"));
+
+    let placaVideo = prompt("Digite o modelo da placa de vídeo desejada");
+    let precoPlaca2 = Number(prompt("Digite o valor da placa de vídeo"));
+
+    let processador = prompt("Digite o modelo do processador desejado");
+    let precoProcessador = Number(prompt("Digite o valor do processador"));
+
+    let memoriaRam = prompt("Digite o modelo da memória RAM desejada");
+    let precoRam = prompt("Digite o valor da memória RAM");
+    let quantidadeRam = prompt("Digite a quantidade de unidades de memória RAM");
+    let calculoRam = precoRam * quantidadeRam;
+
+    let fonte = prompt("Digite o modelo da fonte desejada");
+    let precoFonte = Number(prompt("Digite o valor da fonte"));
+
+    let total = precoPlaca + precoPlaca2 + precoProcessador + calculoRam + precoFonte;
+
+    alert(
+        "Placa-Mãe: " + placaMae + " " + "Valor: " + precoPlaca + " " + "R$" +
+        "\nPlaca de Vídeo: " + placaVideo + " " + "Valor: " + precoPlaca2 + " " + "R$" +
+        "\nProcessador: " + processador + " " + "Valor: " + precoProcessador + " " + "R$" +
+        "\nMemória RAM: " + memoriaRam + " " + "Quantidade: " + quantidadeRam + " " + "Valor: " + calculoRam + " " + "R$" +
+        "\nFonte: " + fonte + " " + "Valor: " + precoFonte + " " + "R$" +
+        "\nTotal: " + total + " " + "R$");
+}
