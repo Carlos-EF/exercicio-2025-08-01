@@ -27,7 +27,7 @@ function apresentarExercicio2Console() {
         "\nAltura: " + altura + "m");
 }
 
-function apresentarE2Alert() {
+function apresentarExercicio2Usuario() {
     let nome = prompt("Digite seu nome");
     let sobrenome = prompt("Digite seu sobrenome");
     let nomeCompleto = nome + " " + sobrenome;
@@ -37,7 +37,7 @@ function apresentarE2Alert() {
     alert(
         "Nome: " + nomeCompleto +
         "\nIdade: " + idade + " " + "anos" +
-        "\nPeso: " + peso + "Kg" +
+        "\nPeso: " + peso + "kg" +
         "\nAltura: " + altura + "m");
 }
 
@@ -163,22 +163,7 @@ function apresentarExercicio3Alert() {
 
 // Exercício 4
 
-function apresentarExercicio4Console() {
-    let nome = "Carlos";
-    let sobrenome = "Felix";
-    let nomeCompleto = nome + " " + sobrenome;
-    let peso = 56;
-    let altura = 1.73;
-    let alturaImc = altura * altura;
-    let imc = peso / alturaImc;
-    console.log(
-        "Nome: " + nomeCompleto +
-        "\nPeso: " + peso + " " + "Kg" +
-        "\nAltura: " + altura + "m" +
-        "\nSeu IMC: " + imc);
-}
-
-function apresentarE4UsuarioConsole() {
+function apresentarExercicio4UsuarioConsole() {
     let nome = prompt("Digite seu nome");
     let sobrenome = prompt("Digite seu sobrenome");
     let nomeCompleto = nome + " " + sobrenome;
@@ -188,12 +173,12 @@ function apresentarE4UsuarioConsole() {
     let imc = peso / alturaImc;
     console.log(
         "Nome: " + nomeCompleto +
-        "\nPeso: " + peso + " " + "Kg" +
+        "\nPeso: " + peso + " " + "kg" +
         "\nAltura: " + altura + "m" +
         "\nSeu IMC: " + imc);
 }
 
-function apresentarE4UsuarioAlert() {
+function apresentarExercicio4UsuarioAlert() {
     let nome = prompt("Digite seu nome");
     let sobrenome = prompt("Digite seu sobrenome");
     let nomeCompleto = nome + " " + sobrenome;
@@ -203,7 +188,7 @@ function apresentarE4UsuarioAlert() {
     let imc = peso / alturaImc;
     alert(
         "Nome: " + nomeCompleto +
-        "\nPeso: " + peso + " " + "Kg" +
+        "\nPeso: " + peso + " " + "kg" +
         "\nAltura: " + altura + "m" +
         "\nSeu IMC: " + imc);
 }
@@ -416,9 +401,12 @@ function apresentarExercicio7Alert() {
 
 function apresentarExercicio8Console() {
     let contador = 0;
-    while (contador < 5) {
+    let contador2 = 2;
+    while (contador < 10) {
         contador++;
-        console.log("Contador atual: ", contador);
+        contador2++;
+        console.log("Contador: ", contador);
+        console.log("Contador 2: ", contador2);
     }
     console.log("Finalizado");
 }
@@ -436,5 +424,17 @@ function apresentarExercicio9Console() {
 }
 
 // Exercício 9
+
+// Exercício 10
+
+function apresentarExercicio10Console() {
+    let teste = "";
+
+    for (let numero = 0; numero < 10; numero++) {
+        teste += numero;
+    }
+
+    console.log(teste);
+}
 
 // Exercício 10
