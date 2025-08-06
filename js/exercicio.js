@@ -275,8 +275,8 @@ function apresentarExercicio5Alert() {
 
 function apresentarIfCalculadora() {
     let operacao = prompt("Escolha a operação desejada usando +, -, / ou *");
-    let numero1 = Number(prompt("Digite um número"));
-    let numero2 = Number(prompt("Digite outro número"));
+    let numero1 = parseInt(prompt("Digite um número"));
+    let numero2 = parseInt(prompt("Digite outro número"));
 
     if (operacao === "+") {
         let = soma = numero1 + numero2;
@@ -317,13 +317,13 @@ function apresentarIfCalculadora() {
 
 function apresentarExercicio6Console() {
     let placaMae = prompt("Digite o modelo da placa-mãe desejada");
-    let precoPlaca = Number(prompt("Digite o valor da placa-mãe"));
+    let precoPlaca = parseInt(prompt("Digite o valor da placa-mãe"));
 
     let placaVideo = prompt("Digite o modelo da placa de vídeo desejada");
-    let precoPlaca2 = Number(prompt("Digite o valor da placa de vídeo"));
+    let precoPlaca2 = parseInt(prompt("Digite o valor da placa de vídeo"));
 
     let processador = prompt("Digite o modelo do processador desejado");
-    let precoProcessador = Number(prompt("Digite o valor do processador"));
+    let precoProcessador = parseInt(prompt("Digite o valor do processador"));
 
     let memoriaRam = prompt("Digite o modelo da memória RAM desejada");
     let precoRam = prompt("Digite o valor da memória RAM");
@@ -331,7 +331,7 @@ function apresentarExercicio6Console() {
     let calculoRam = precoRam * quantidadeRam;
 
     let fonte = prompt("Digite o modelo da fonte desejada");
-    let precoFonte = Number(prompt("Digite o valor da fonte"));
+    let precoFonte = parseInt(prompt("Digite o valor da fonte"));
 
     let total = precoPlaca + precoPlaca2 + precoProcessador + calculoRam + precoFonte;
 
@@ -346,13 +346,13 @@ function apresentarExercicio6Console() {
 
 function apresentarExercicio6Alert() {
     let placaMae = prompt("Digite o modelo da placa-mãe desejada");
-    let precoPlaca = Number(prompt("Digite o valor da placa-mãe"));
+    let precoPlaca = parseInt(prompt("Digite o valor da placa-mãe"));
 
     let placaVideo = prompt("Digite o modelo da placa de vídeo desejada");
-    let precoPlaca2 = Number(prompt("Digite o valor da placa de vídeo"));
+    let precoPlaca2 = parseInt(prompt("Digite o valor da placa de vídeo"));
 
     let processador = prompt("Digite o modelo do processador desejado");
-    let precoProcessador = Number(prompt("Digite o valor do processador"));
+    let precoProcessador = parseInt(prompt("Digite o valor do processador"));
 
     let memoriaRam = prompt("Digite o modelo da memória RAM desejada");
     let precoRam = prompt("Digite o valor da memória RAM");
@@ -360,7 +360,7 @@ function apresentarExercicio6Alert() {
     let calculoRam = precoRam * quantidadeRam;
 
     let fonte = prompt("Digite o modelo da fonte desejada");
-    let precoFonte = Number(prompt("Digite o valor da fonte"));
+    let precoFonte = parseInt(prompt("Digite o valor da fonte"));
 
     let total = precoPlaca + precoPlaca2 + precoProcessador + calculoRam + precoFonte;
 
@@ -400,15 +400,12 @@ function apresentarExercicio7Alert() {
 // Exercício 8
 
 function apresentarExercicio8Console() {
-    let contador = 0;
-    let contador2 = 2;
+    let contador = 1;
+
     while (contador < 10) {
         contador++;
-        contador2++;
-        console.log("Contador: ", contador);
-        console.log("Contador 2: ", contador2);
-    }
-    console.log("Finalizado");
+        console.log("Contando até 10:", contador);
+    } alert("Contamos até 10!");
 }
 
 // Exercício 8
@@ -416,10 +413,10 @@ function apresentarExercicio8Console() {
 // Exercício 9
 
 function apresentarExercicio9Console() {
-    let poder = [8, 0, 0, 1];
+    let poder = [0, 0, 8, 1];
+    console.log(poder[2]);
     console.log(poder[0]);
     console.log(poder[1]);
-    console.log(poder[2]);
     console.log(poder[3]);
 }
 
